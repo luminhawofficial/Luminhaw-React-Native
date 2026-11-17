@@ -49,6 +49,11 @@ export default function RootLayout() {
         name="soil-identification"
         options={{ title: 'Soil Identification' }}
       />
+
+      <Stack.Screen
+  name="saved-plants"
+  options={{ title: 'Saved Plants' }}
+/>
     </Stack>
   );
 }

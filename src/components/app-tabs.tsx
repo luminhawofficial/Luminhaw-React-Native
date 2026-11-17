@@ -27,6 +27,18 @@ export default function AppTabs() {
           renderingMode="template"
         />
       </NativeTabs.Trigger>
+
+
+<NativeTabs.Trigger name="saved-plants">
+  <NativeTabs.Trigger.Label>
+    Saved Plants
+  </NativeTabs.Trigger.Label>
+  <NativeTabs.Trigger.Icon
+    src={require('@/assets/images/tabIcons/bookmark.png')}
+    renderingMode="template"
+  />
+</NativeTabs.Trigger>
+
     </NativeTabs>
   );
 }
